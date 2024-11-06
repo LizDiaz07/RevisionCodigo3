@@ -1,0 +1,46 @@
+/* Es para cambiar el fondo de la página completa */
+body {
+
+  /* Fondo de gradiente */
+
+    background: linear-gradient(145deg, #b893df, #83a1d3);
+ 
+
+}
+
+/* Estilo del input para mejorar su visibilidad */
+input {
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* Contenedor de la lista de productos, utiliza flexbox para distribuir los elementos */
+#lista-de-productos {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e0f7fa;
+    /* Fondo de color claro */
+    padding: 20px;
+    /* Espacio alrededor de los productos */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+/* Estilo de cada producto individual */
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgb(104, 201, 136);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Estilo de la imagen de cada producto */
+.producto img {
+  width: 70%;
+  height: auto;
+}
